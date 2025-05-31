@@ -5,8 +5,8 @@ import {
     useMapEvents,
     useMap,
 } from "react-leaflet";
-import { LatLngExpression, Map as LeafletMap } from "leaflet";
-import { MutableRefObject, useEffect } from "react";
+import { type LatLngExpression, Map as LeafletMap } from "leaflet";
+import { type MutableRefObject, useEffect } from "react";
 
 interface MapPaneProps {
     position: LatLngExpression;
