@@ -1,0 +1,8 @@
+name = "earth-sandwich"
+type = "webpack"  # use 'webpack' if you're bundling with Webpack or Vite
+
+# The 'build' section
+[build]
+command = "npm run build"  # This will run 'npm run build' to create the production build
+directory = "dist"  # Vite outputs to the 'dist' folder
+
