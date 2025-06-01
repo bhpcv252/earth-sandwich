@@ -11,7 +11,7 @@ function App() {
     const leftMapRef = useRef<LeafletMap | null>(null);
     const rightMapRef = useRef<LeafletMap | null>(null);
 
-    const zoom = 4;
+    const zoom = 5;
 
     const centerBothMaps = (loc: [number, number], anti: [number, number]) => {
         leftMapRef.current?.setView(loc, zoom);

@@ -24,3 +24,23 @@
 .pane>div {
     flex: 1;
 }
+
+.map-pane {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: monospace, sans-serif;
+    pointer-events: none;
+    z-index: 1000;
+    color: #000000;
+}
