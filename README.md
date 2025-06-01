@@ -66,7 +66,7 @@ A fun and interactive web app that lets users click on a map to find the exact o
 
 #### Scripts:
 
-- **`npm run dev`**: Starts the development server at `localhost:3000`.
+- **`npm run dev`**: Starts the development server at `localhost:5173`.
 - **`npm run build`**: Builds the project for production.
 - **`npm run preview`**: Previews the production build locally.
 
