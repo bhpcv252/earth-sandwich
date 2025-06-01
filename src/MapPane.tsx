@@ -9,7 +9,7 @@ import { type LatLngExpression, Map as LeafletMap } from "leaflet";
 import { type MutableRefObject, useEffect } from "react";
 
 interface MapPaneProps {
-    position: LatLngExpression; // This is the marker position
+    position: LatLngExpression;
     onClick: (coords: [number, number]) => void;
     zoom?: number;
     mapRef: MutableRefObject<LeafletMap | null>;
